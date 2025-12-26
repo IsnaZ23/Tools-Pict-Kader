@@ -13,7 +13,7 @@ echo.
 echo [*] Memproses folder: %FOLDER_FOTO%
 echo.
 
-"C:\Users\Isnan\AppData\Local\Programs\Python\Python314\python.exe" "%~dp0foto.py" "%FOLDER_FOTO%"
+"C:\Users\Nama_File\AppData\Local\Programs\Python\Python314\python.exe" "%~dp0foto.py" "%FOLDER_FOTO%" (file python anda)
 
 echo.
 pause
