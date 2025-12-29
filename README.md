@@ -1,28 +1,24 @@
-📸 Generator Foto 3x4 ke PDF
-Ini adalah tool sederhana untuk mengubah banyak foto menjadi ukuran 3x4 (pas foto) dan menggabungkannya ke dalam satu file PDF (format A4).
-========================================================================================================================================================================================================
-✨Fitur
-1. Auto-crop foto ke rasio 3:4 (fokus di tengah)
-2. Resize otomatis ke ukuran 354x472 piksel (3x4 cm @ 300 DPI)
-3. Pencarian rekursif — otomatis menemukan semua foto di subfolder
-4. Layout otomatis — menyusun foto rapat di kertas A4
-5. Format yang didukung: .jpg, .jpeg, .png
+# 📸 3x4 Photo to PDF Generator
+This is a simple tool to convert multiple photos into 3x4 size (passphoto) and combine them into a single PDF file (A4 format).
 
-📋 Persyaratan
-1. Python 3 terinstal di komputer
-2. Library Pillow:
-pip install Pillow
+### ✨ Features
+* **Auto-crop** photos to 3:4 ratio (center focus)
+* **Auto-resize** to 354x472 pixels (3x4 cm @ 300 DPI)
+* **Recursive search** — automatically finds all photos in subfolders
+* **Auto-layout** — arranges photos efficiently on A4 paper
+* **Supported formats:** .jpg, .jpeg, .png
 
-🚀 Cara Pakai
-Menggunakan JALANKAN.bat (Windows)
-1. Double-click file 
-2. JALANKAN.bat
-Masukkan path folder yang berisi foto-foto kamu, contoh:
-" Masukkan path folder foto: C:\Users\nama_file\Documents\Foto_Kader "
-3. Tunggu proses selesai
-4. File PDF akan tersimpan di folder yang sama dengan nama: Foto_3x4_Final.pdf
+### 📋 Requirements
+* Python 3 installed on your computer
+* Pillow Library: `pip install Pillow`
 
-📁 Output
-- File PDF akan disimpan di folder yang sama dengan foto
-- Nama file: Foto_3x4_Final.pdf
-- Resolusi: 300 DPI (kualitas cetak)
+### 🚀 How to Use Using JALANKAN.bat (Windows)
+1. Double-click the **JALANKAN.bat** file.
+2. Enter the folder path containing your photos, for example: `"Enter photo folder path: C:\Users\name_file\Documents\Kader_Photos"`
+3. Wait for the process to complete.
+4. The PDF file will be saved in the same folder with the name: **Foto_3x4_Final.pdf**
+
+### 📁 Output
+* The PDF file will be saved in the same folder as the photos.
+* Filename: **Foto_3x4_Final.pdf**
+* Resolution: **300 DPI** (print quality)
